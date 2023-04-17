@@ -25,7 +25,7 @@ class _MainPageState extends State<MainPage> {
                 borderRadius: BorderRadius.circular(35),
                 child: Container(
                   color: Colors.purple,
-                  child: Center(child: Image.network('https://cdn-icons-png.flaticon.com/512/831/831319.png',width: 130,)),
+                  child: Center(child: Image.asset('cloudy-day.png',width: 130,)),
                 ),
               ),
             ),
@@ -38,7 +38,7 @@ class _MainPageState extends State<MainPage> {
                 borderRadius: BorderRadius.circular(35),
                 child: Container(
                   color: Colors.purple,
-                  child: Center(child: Image.network('https://cdn-icons-png.flaticon.com/512/1031/1031688.png',width:130,)),
+                  child: Center(child: Image.asset('calculator.png',width:130,)),
                 ),
               ),
             ),
@@ -51,7 +51,7 @@ class _MainPageState extends State<MainPage> {
                 borderRadius: BorderRadius.circular(35),
                 child: Container(
                   color: Colors.purple,
-                  child: Center(child: Image.network('https://cdn-icons-png.flaticon.com/512/1031/1031688.png',width:130,)),
+                  child: Center(child: Image.asset('sticky-notes.png',width:130,)),
                 ),
               ),
             ),
