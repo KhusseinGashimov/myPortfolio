@@ -58,7 +58,7 @@ class _MainPageState extends State<MainPage> {
             ),
           ),
           GestureDetector(
-            onTap:(){ Navigator.push(context, MaterialPageRoute(builder: (context)=>UserLocation()));},
+            onTap:(){ Navigator.push(context, MaterialPageRoute(builder: (context)=>LocationPage()));},
             child: Padding(
               padding: const EdgeInsets.all(12.0),
               child: ClipRRect(
