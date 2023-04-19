@@ -43,6 +43,9 @@ dependencies:
   flutter_slidable: ^1.2.0
   hive: ^2.2.3
   hive_flutter: ^1.1.0
+  geocoding: ^2.1.0
+  geolocator: ^9.0.2
+  url_launcher: ^6.1.10
 
 dev_dependencies:
   flutter_test:
@@ -73,6 +76,7 @@ flutter:
     - sticky-notes.png
     - calculator.png
     - cloudy-day.png
+    - map.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

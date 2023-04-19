@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myportfolio/Calculate.dart';
+import 'package:myportfolio/UserLocation.dart';
 import 'package:myportfolio/home_page.dart';
 import 'package:myportfolio/pages/home_page.dart';
 
@@ -52,6 +53,19 @@ class _MainPageState extends State<MainPage> {
                 child: Container(
                   color: Colors.purple,
                   child: Center(child: Image.asset('sticky-notes.png',width:130,)),
+                ),
+              ),
+            ),
+          ),
+          GestureDetector(
+            onTap:(){ Navigator.push(context, MaterialPageRoute(builder: (context)=>UserLocation()));},
+            child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(35),
+                child: Container(
+                  color: Colors.purple,
+                  child: Center(child: Image.asset('map.png',width:130,)),
                 ),
               ),
             ),
