@@ -26,7 +26,7 @@ class _MainPageState extends State<MainPage> {
                 borderRadius: BorderRadius.circular(35),
                 child: Container(
                   color: Colors.purple,
-                  child: Center(child: Image.asset('cloudy-day.png',width: 130,)),
+                  child: Center(child: Image.asset('assets/cloudy-day.png',width: 130,)),
                 ),
               ),
             ),
@@ -39,7 +39,7 @@ class _MainPageState extends State<MainPage> {
                 borderRadius: BorderRadius.circular(35),
                 child: Container(
                   color: Colors.purple,
-                  child: Center(child: Image.asset('calculator.png',width:130,)),
+                  child: Center(child: Image.asset('assets/calculator.png',width:130,)),
                 ),
               ),
             ),
@@ -52,7 +52,7 @@ class _MainPageState extends State<MainPage> {
                 borderRadius: BorderRadius.circular(35),
                 child: Container(
                   color: Colors.purple,
-                  child: Center(child: Image.asset('sticky-notes.png',width:130,)),
+                  child: Center(child: Image.asset('assets/sticky-notes.png',width:130,)),
                 ),
               ),
             ),
@@ -65,7 +65,7 @@ class _MainPageState extends State<MainPage> {
                 borderRadius: BorderRadius.circular(35),
                 child: Container(
                   color: Colors.purple,
-                  child: Center(child: Image.asset('map.png',width:130,)),
+                  child: Center(child: Image.asset('assets/map.png',width:130,)),
                 ),
               ),
             ),
