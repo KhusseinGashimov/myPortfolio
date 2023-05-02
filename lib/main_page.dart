@@ -70,6 +70,19 @@ class _MainPageState extends State<MainPage> {
               ),
             ),
           ),
+          GestureDetector(
+            onTap:(){ Navigator.push(context, MaterialPageRoute(builder: (context)=>LocationPage()));},
+            child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(35),
+                child: Container(
+                  color: Colors.purple,
+                  child: Center(child: Image.asset('assets/map.png',width:130,)),
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
