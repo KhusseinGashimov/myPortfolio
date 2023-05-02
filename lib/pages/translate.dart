@@ -8,6 +8,7 @@ class Translate extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       backgroundColor: Colors.purple[200],
       body: GridView.count(
         crossAxisCount: 2,

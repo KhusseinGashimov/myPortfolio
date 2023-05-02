@@ -3,6 +3,7 @@ import 'package:myportfolio/Calculate.dart';
 import 'package:myportfolio/UserLocation.dart';
 import 'package:myportfolio/home_page.dart';
 import 'package:myportfolio/pages/home_page.dart';
+import 'package:myportfolio/pages/translate.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -71,14 +72,14 @@ class _MainPageState extends State<MainPage> {
             ),
           ),
           GestureDetector(
-            onTap:(){ Navigator.push(context, MaterialPageRoute(builder: (context)=>LocationPage()));},
+            onTap:(){ Navigator.push(context, MaterialPageRoute(builder: (context)=>Translate()));},
             child: Padding(
               padding: const EdgeInsets.all(12.0),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(35),
                 child: Container(
                   color: Colors.purple,
-                  child: Center(child: Image.asset('assets/map.png',width:130,)),
+                  child: Center(child: Image.asset('assets/languages.png',width:130,)),
                 ),
               ),
             ),
